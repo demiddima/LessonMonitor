@@ -23,7 +23,7 @@ namespace LessonMonitorAPICore8
                 app.UseSwaggerUI();
             }
 
-            app.UseWelcomePage();
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
