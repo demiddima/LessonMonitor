@@ -1,0 +1,6 @@
+@LessonMonitorAPICore8_HostAddress = http://localhost:5048
+
+GET {{LessonMonitorAPICore8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
