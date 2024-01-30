@@ -7,10 +7,7 @@ namespace LessonMonitorAPICore8.Controllers
     [Route("[controller]")]
     public class UsersController : Controller
     {
-        public UsersController()
-        {
-            
-        }
+
 
         [HttpGet]
         public User[] Get(string userName)
@@ -29,6 +26,12 @@ namespace LessonMonitorAPICore8.Controllers
                 users.Add(user);
             }
             return users.ToArray();
+        }
+
+        [HttpGet("model")]
+        public void GetModel([FromQuery]User user)
+        {
+            
         }
     }
 }
