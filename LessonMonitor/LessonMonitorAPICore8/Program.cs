@@ -1,4 +1,6 @@
 
+using LessonMonitorAPICore8.Components;
+
 namespace LessonMonitorAPICore8
 {
     public class Program
@@ -28,6 +30,8 @@ namespace LessonMonitorAPICore8
 
             app.UseAuthorization();
 
+
+            app.UseMiddleware<MyMiddlewareComponent>();
 
             app.MapControllers();
 

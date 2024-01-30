@@ -1,6 +1,9 @@
 ﻿
 
 
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
 namespace LessonMonitorAPICore8.Models
 {
     public class User
@@ -20,32 +23,8 @@ namespace LessonMonitorAPICore8.Models
 
     }
 
-    internal class DescriptionAttribute : Attribute
-    {
-        public DescriptionAttribute(string text)
-        {
-            Text = text;
-        }
 
-        public string Text { get; }
-    }
 
-    public class RequiredAttribute : Attribute
-    {
-        public RequiredAttribute(int minValue, int maxValue)
-        {
-            MinValue = minValue;
-            MaxValue = maxValue;
-        }
-
-        public int MinValue { get; }
-
-        public int MaxValue { get; }
-    }
-
-    internal class RangeAttribute : Attribute
-    {
-    }
 
 
 
