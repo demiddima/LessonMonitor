@@ -9,10 +9,8 @@ namespace LessonMonitorAPICore8
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -31,7 +29,7 @@ namespace LessonMonitorAPICore8
             app.UseAuthorization();
 
 
-            app.UseMiddleware<MyMiddlewareComponent>();
+            app.UseMiddleware<LogRequestMiddleware>(@"Data\logRequest.txt");
 
             app.MapControllers();
 

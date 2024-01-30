@@ -1,0 +1,48 @@
+Protocol: HTTP/2
+Method: GET
+Body: Microsoft.AspNetCore.Server.IIS.Core.HttpRequestStream
+Protocol: HTTP/2
+Method: GET
+Body: Microsoft.AspNetCore.Server.IIS.Core.HttpRequestStream
+Protocol: HTTP/2
+Method: GET
+Body: Microsoft.AspNetCore.Server.IIS.Core.HttpRequestStream
+Protocol: HTTP/2
+Method: GET
+Body: Microsoft.AspNetCore.Server.IIS.Core.HttpRequestStream
+Protocol: HTTP/2
+Method: GET
+Body: True
+
+Protocol: HTTP/2
+Method: GET
+Body: /Users
+
+Protocol: HTTP/2
+Method: GET
+Body: /WeatherForecast
+
+Protocol: HTTP/2
+Method: GET
+Body: /WeatherForecast
+
+Protocol: HTTP/2
+Method: GET
+Path: /Users
+Body: 
+
+Protocol: HTTP/2
+Method: GET
+Path: /Users
+Body: 
+
+Protocol: HTTP/2
+Method: GET
+Path: /Users/model
+Body: 
+
+Protocol: HTTP/2
+Method: GET
+Path: /Users/model
+Body: 
+
